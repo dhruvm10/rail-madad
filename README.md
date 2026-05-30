@@ -3,7 +3,7 @@ Rail Madad AI is an AI-powered complaint management system for Indian Railways. 
 
 An AI-powered complaint management system for Indian Railways built with Next.js, TypeScript, and Drizzle ORM.
 
-Features
+##Features
 
 AI-powered complaint classification and routing
 Real-time complaint tracking and notifications
@@ -14,7 +14,7 @@ AI chatbot for user assistance
 Secure authentication with JWT
 
 
-Tech Stack
+##Tech Stack
 Frontend: Next.js 14, TypeScript, TailwindCSS, ShadCN/UI
 Backend: Next.js API Routes
 Database: SQLite (development), PostgreSQL (production)
@@ -23,7 +23,7 @@ AI: Google Gemini AI
 Authentication: JWT with bcrypt
 
 
-Installation
+##Installation
 Clone the repository:
 
 git clone <repository-url>
@@ -54,7 +54,7 @@ Admin: admin@railmadad.com / password123
 Staff: staff1@railmadad.com / password123
 Passenger: passenger1@example.com / password123
 
-Usage
+##Usage
 Authentication
 Register as a passenger, staff, or admin
 Login with your credentials
@@ -69,7 +69,7 @@ Update complaint status
 Add internal notes
 Route to appropriate departments
 
-API
+##API
 The application provides RESTful API endpoints for:
 
 Authentication (/api/auth)
@@ -78,14 +78,14 @@ File uploads (/api/upload)
 Analytics (/api/analytics)
 
 
-Database
+##Database
 The project uses Drizzle ORM with SQLite for development and PostgreSQL for production.
 
 To reset and seed the database:
 
 npm run db:fresh
 
-Scripts
+##Scripts
 npm run dev - Start development server
 npm run build - Build for production
 npm run start - Start production server
@@ -99,5 +99,5 @@ Make your changes
 Submit a pull request
 
 
-License
+##License
 This project is licensed under the MIT License.
